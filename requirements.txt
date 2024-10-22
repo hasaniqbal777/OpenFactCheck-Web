@@ -1,17 +1,18 @@
-backoff
-boto3
-datasets
+backoff==2.2.1
+boto3==1.35.45
+datasets==3.0.1
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl#sha256=86cc141f63942d4b2c5fcee06630fd6f904788d2f0ab005cce45aadb8fb73889
-evaluate
+evaluate==0.4.3
 factool @ git+https://github.com/hasaniqbal777/factool
-nltk
+nltk==3.9.1
+numpy==1.26.4
 openfactcheck==0.3.9
-python-dotenv
-python-Levenshtein
-seaborn
-sentence-transformers
-spacy
-streamlit
-streamlit-option-menu
-torch
-transformers
+python-dotenv==1.0.1
+python-Levenshtein==0.26.0
+seaborn==0.13.2
+sentence-transformers==3.2.1
+spacy==3.7.5
+streamlit==1.39.0
+streamlit-option-menu==0.4.0
+torch==2.5.0
+transformers==4.45.2

@@ -10,11 +10,6 @@ if ! [ -x "$(command -v git)" ]; then
   exit 1
 fi
 
-if ! [ -x "$(command -v bump2version)" ]; then
-  echo 'Error: bump2version is not installed.' >&2
-  exit 1
-fi
-
 ################################################################################
 # Common Functions                                                             #
 ################################################################################
